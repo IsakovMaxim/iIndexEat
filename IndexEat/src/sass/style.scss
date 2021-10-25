@@ -1,0 +1,14 @@
+@import 'header';
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1194px;    
+    margin: auto;
+}
