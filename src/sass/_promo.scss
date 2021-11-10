@@ -1,0 +1,87 @@
+.promo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__card {
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+        padding: 32px 32px;
+        min-width: 570px;
+        min-height: 380px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+            &::before {
+                z-index: -1;
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+            }
+    }
+
+    &__card-text-light {
+        color: #fff;
+    }
+
+    &__card-title {
+        margin: 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 23px;
+    }
+    &__card-descr {
+        margin: 0;
+        margin-top: 21px;
+        max-width: 170px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    &__card-price {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 23px;
+    }
+    &__card-delivery {
+        display: block;
+        margin-top: 8px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    &__button-default {
+        display: block;
+        margin-top: 25px;
+        background-color: #fff;
+        color: #5F5F61;
+        text-align: center;
+    }
+    // &__card--sweet-basket {
+    //    background: url('../img/sweet1.png') no-repeat center / cover;
+    // }
+        &__card-img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            object-fit: cover;
+        }
+}

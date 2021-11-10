@@ -1,4 +1,7 @@
 @import 'header';
+@import 'main';
+@import 'promo';
+
 
 
 body {
@@ -11,4 +14,16 @@ body {
 .container {
     max-width: 1194px;    
     margin: auto;
+   
+}
+
+.button {
+    display: inline-block;      
+    border-radius: 25px;
+            
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;        
+    padding: 13px 52px;
+    text-decoration: none;
 }

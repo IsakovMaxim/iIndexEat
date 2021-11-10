@@ -1,0 +1,45 @@
+.main {
+    &__slide--text-light {
+        background-color: grey;
+        color: #ffff;
+    }
+
+    &__slide {
+        border-radius: 20px;
+        min-height: 400px;
+        display: flex;
+        align-items: center;
+        padding: 76px 100px;
+        overflow: hidden;
+    }
+    &__slide-wrapper {
+        max-width: 400px;
+    }
+
+    &__slide-title {
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 51px;
+        margin: 0;
+    }
+    &__slide-text {
+        margin: 0;
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    &__button--primary {
+        display: block;        
+        margin-top: 32px;
+        background: #F47322;
+        color: #FFFFFF;        
+    }    
+    &__slide--summer {
+        background-image: url('../img/slide_summer.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+    
