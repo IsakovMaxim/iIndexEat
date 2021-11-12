@@ -1,0 +1,74 @@
+.delivery-week {
+    padding-top: 60px;
+    &__title {
+        margin: 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 23px;
+        color: #000000;
+    }
+    &__cards-wrapper{
+        margin: -15px;
+        margin-top: 47px;
+        display: flex;
+        flex-wrap: wrap;                  
+    }
+    &__card {        
+        margin: 15px;
+        position: relative;
+        max-width: 275px;
+        max-height: 182px;
+        border-radius: 18px;
+        overflow: hidden; 
+    }
+    &__card-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    &__card-tag {
+        position: absolute;  
+        padding: 5px 10px;   
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #49494F;
+        text-align: center;
+        text-transform: capitalize;        
+    }
+    &__card-tag--style {    
+        left: 10px;
+        top: 16px;
+        border-radius: 30px;
+    }
+    &__card-tag--uppercase {
+        text-transform: uppercase;
+    }    
+
+    &__card-tag--color1 {
+        background: #D0FD89;
+    }
+    &__card-tag--color2 {
+        background: #AEBC41;
+    }
+    &__card-tag--color3 {
+        background: #B86B78;;
+    }
+    &__card-tag--color4 {
+        background: #D68334;
+    }
+    &__card-tag--color5 {
+        background: #CD6255;
+    }
+    &__card-tag--color6 {
+        background: #FFFDBF;
+    }
+    &__card-tag--color7 {
+        background: #F6FDC8;
+    }
+    &__card-tag--color8 {
+        background: #FEF7FE;
+    }
+}

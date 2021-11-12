@@ -1,6 +1,7 @@
 .promo {
     padding-top: 50px;
     padding-bottom: 50px;
+    margin: -20px;
 
     &__wrapper {
         display: flex;
@@ -9,11 +10,13 @@
     }
 
     &__card {
+        flex: 50%;
+        margin: 20px;
         position: relative;
         border-radius: 20px;
         overflow: hidden;
         padding: 32px 32px;
-        min-width: 570px;
+        max-width: 570px;
         min-height: 380px;
         display: flex;
         flex-direction: column;
